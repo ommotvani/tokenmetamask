@@ -1,0 +1,41 @@
+@font-face {
+    font-family: "Plex";
+    src: local("Plex"), url("../fonts/IBMPlexSans-Regular.ttf") format("opentype");
+}
+
+@font-face {
+    font-family: "PlexBold";
+    src: local("PlexBold"), url("../fonts/IBMPlexSans-Bold.ttf") format("opentype");
+}
+
+body {
+    font-family: "Plex" !important;
+    font-weight: bolder;
+    background-color: #090a0e;
+    color: #A8ADDC;
+    // word-spacing: 10px;
+    letter-spacing: 0.5px;
+}
+
+h1, h2, h3, h4, button {
+    font-family: "PlexBold" !important;
+    letter-spacing: unset;
+    color: #d7dbff;
+    // font-weight: 100;
+}
+
+p {
+    line-height: 1.3rem;
+    
+}
+
+@media (max-width: 576px) {
+    body {
+        font-size: 0.9rem !important;
+    }
+}
+
+.body-content {
+    background-color: #090a0e;
+    min-height: 100vh;
+}

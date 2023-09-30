@@ -1,0 +1,51 @@
+.wallet-popup-model {
+    .modal-sm {
+        max-width: 420px;
+        .modal-content {
+            // min-height: 80vh;
+            background-color: #1e1f2a;
+            border: 2px solid #d7dbff2f;
+            .modal-body {
+                padding: 0;
+            }
+            .close-img {
+                cursor: pointer;
+            }
+            .header-container {
+                padding: 1rem;
+                border-bottom: 2px solid #d7dbff1f;
+            }
+            h6 {
+                font-family: "PlexBold";
+                color: #d7dbff;
+                margin-bottom: 0;
+            }
+            .wallet-list {
+                padding: 1.5rem 2rem;
+                .wallet-item {
+                    width: 100%;
+                    border-radius: 10px;
+                    padding: 0.7rem 0.5rem 0.7rem 0.5rem;
+                    border: 1px solid #12131c;
+                    background-color: #12131c2f;
+                }
+                .wallet-item:hover {
+                    background-color: #12131c5f;
+                    cursor: pointer;
+                }
+                .wallet-img-container {
+                    img {
+                        margin-left: 0.4rem;
+                        margin-right: 1.3rem;
+                        border-radius: 10px;
+                    }
+                }
+                .wallet-name {
+                    font-size: 1rem;
+                    margin-top: 0.1rem;
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+}
