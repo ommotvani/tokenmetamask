@@ -48,8 +48,8 @@ export const TESTNET_CHAINS: ChainConfig = {
 }
 
 export const CHAINS: ChainConfig = {
-  // ...MAINNET_CHAINS,
-  ...TESTNET_CHAINS,
+  ...MAINNET_CHAINS,
+  // ...TESTNET_CHAINS,
 }
 
 export const URLS: { [chainId: number]: string[] } = Object.keys(CHAINS).reduce<{ [chainId: number]: string[] }>(

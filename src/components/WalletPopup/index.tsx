@@ -22,7 +22,7 @@ function WalletPopup(props: any) {
         try {
             if (connectorName === 'metaMask') {
                 let { metaMask } = await require('../../connectors/metaMask')
-                await metaMask.activate(97)
+                await metaMask.activate(56)
                 localStorage.setItem('wallet', 'metaMask');
                 props.onWallet()
             } 
